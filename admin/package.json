@@ -10,6 +10,7 @@
     "p": "next build && next export"
   },
   "dependencies": {
+    "apexcharts": "^3.35.3",
     "axios": "^0.27.2",
     "firebase": "^9.8.4",
     "next": "12.1.6",

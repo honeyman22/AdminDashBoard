@@ -12,7 +12,7 @@ import { CgDollar } from "react-icons/cg";
 import ProfileCard from "./ProfileCard";
 import BasicChart from "../Charts/BasicChart";
 import Table from "../Charts/Table";
-
+import Link from "next/link";
 const Profile = () => {
   const skills = [
     "Javascript",
@@ -85,10 +85,14 @@ const Profile = () => {
               <div className="flex mt-4 flex-col  gap-2">
                 <div className="font-[400] gap-2 h-[20px]  items-center text-[14px] w-full flex ">
                   <FiExternalLink size={20} />
-
-                  <a href="" className=" ml-1 text-blue-600 hover:underline">
-                    myportfolio.com
-                  </a>
+                  <Link href={"https://myportfolio-ruddy-beta.vercel.app/"}>
+                    <a
+                      target="_blank"
+                      className=" ml-1 text-blue-600 hover:underline"
+                    >
+                      myportfolio.com
+                    </a>
+                  </Link>
                 </div>
                 <div className="font-[400] gap-2 h-[20px]  items-center text-[14px] w-full flex ">
                   <FiTwitter size={20} />

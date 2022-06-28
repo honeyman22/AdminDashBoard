@@ -70,13 +70,7 @@ const BasicChart = () => {
       <div className="text-[18px] z-10 text-blue-700 p-3 border-b-[1px] font-serif">
         Revenue
       </div>
-      <Chart
-        options={options}
-        series={series}
-        type="bar"
-        width={700}
-        height={320}
-      />
+      <Chart options={options} series={series} type="bar" height={320} />
     </div>
   );
 };

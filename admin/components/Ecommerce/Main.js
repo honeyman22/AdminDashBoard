@@ -1,5 +1,10 @@
 import React from "react";
-import { FaChessBishop, FaDotCircle, FaGoogle } from "react-icons/fa";
+import {
+  FaChessBishop,
+  FaDotCircle,
+  FaGoogle,
+  FaShoppingBasket,
+} from "react-icons/fa";
 import { MdArrowDownward, MdArrowUpward } from "react-icons/md";
 import BasicChart from "../Charts/BasicChart";
 import DonutCharts from "../Charts/DonutCharts";
@@ -80,14 +85,14 @@ const Main = () => {
             </div>
             <div className="w-full gap-3 h-[110px] border rounded-md p-2 flex items-center">
               <div className="h-[100px] w-[100px] flex rounded-md text-blue-500 items-center justify-center bg-blue-200">
-                <FaChessBishop size={70} />
+                <FaShoppingBasket size={70} />
               </div>
               <div className="w-[80%] gap-1 flex justify-center flex-col h-[100px]">
-                <div className="text-[16px] text-black/40">Deposite</div>
+                <div className="text-[16px] text-black/40">Intrest</div>
                 <div className="text-[20px] font-semibold text-blue-700">
-                  $10.000{" "}
+                  $12.000{" "}
                   <span className="text-[14px] text-black/40 font-light">
-                    /$20.00
+                    /$18.00
                   </span>
                 </div>
                 <div className="h-3 rounded-md bg-slate-100 overflow-hidden border">

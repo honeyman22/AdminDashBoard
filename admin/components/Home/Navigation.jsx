@@ -52,13 +52,13 @@ const Navigation = () => {
           </div>
           <div
             onClick={() => history.push("/login")}
-            className=" flex h-[50px] items-center"
+            className=" flex h-[50px] gap-2 items-center"
           >
             <div className="cursor-pointer">
               {!auth?.currentUser?.photoURL ? (
                 <MdSupervisedUserCircle size={50} />
               ) : (
-                <div className="w-[40px] relative h-[40px]">
+                <div className="w-[40px] rounded-full overflow-hidden relative h-[40px]">
                   <Image
                     src={auth?.currentUser?.photoURL}
                     alt={auth?.currentUser.uid}
@@ -68,7 +68,7 @@ const Navigation = () => {
                 </div>
               )}
             </div>
-            {auth?.currentUser?.displayName ?? "Log In"}
+            {auth?.currentUser?.displayName.toUpperCase() ?? "Log In"}
           </div>
         </div>
       </div>

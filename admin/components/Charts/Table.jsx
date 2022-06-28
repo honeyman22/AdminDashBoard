@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGoogle } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaGoogle } from "react-icons/fa";
 
 const Table = () => {
   return (
@@ -40,35 +40,35 @@ const Table = () => {
         <tr className="h-[60px] border-b">
           <td className="text-left gap-2 flex items-center  text-blue-500 text-[18px] font-normal font-serif">
             <div className="w-[30px] h-[60px] items-center justify-center flex">
-              <FaGoogle size={25} />
+              <FaFacebook size={25} />
             </div>
-            <span className="text-black/60">Google</span>
+            <span className="text-black/60">Facebook</span>
           </td>
           <td className="text-left items-center  text-black text-[18px] font-normal font-serif">
-            Don Jimmy
+            Ghost Rider
           </td>
           <td className="text-left items-center  text-blue-700 text-[18px] font-normal font-serif">
-            $500
+            $356
           </td>
           <td className="text-left  items-center  text-blue-400 text-[18px] font-normal font-serif">
-            4.8 | <span className="text-black">Good</span>
+            4.4 | <span className="text-black">Good</span>
           </td>
         </tr>
         <tr className="h-[60px] ">
           <td className="text-left gap-2 flex items-center  text-blue-500 text-[18px] font-normal font-serif">
             <div className="w-[30px] h-[60px] items-center justify-center flex">
-              <FaGoogle size={25} />
+              <FaGithub size={25} />
             </div>
-            <span className="text-black/60">Google</span>
+            <span className="text-black/60">Github</span>
           </td>
           <td className="text-left items-center  text-black text-[18px] font-normal font-serif">
-            Don Jimmy
+            Barbarian King
           </td>
           <td className="text-left items-center  text-blue-700 text-[18px] font-normal font-serif">
-            $500
+            $140
           </td>
-          <td className="text-left  items-center  text-blue-400 text-[18px] font-normal font-serif">
-            4.8 | <span className="text-black">Good</span>
+          <td className="text-left  items-center  text-red-400 text-[18px] font-normal font-serif">
+            2.75| <span className="text-red-800">Bad</span>
           </td>
         </tr>
       </table>
